@@ -16,7 +16,7 @@
     "underscore": "1.9.1",
     "handlebars": "4.5.3",
     "yargs-parser": "10.1.0",
-    "node-fetch": "2.6.1",
+    "node-fetch": "2.6.7",
     "marked": "1.2.5",
     "dot-prop": "4.2.0",
     "ws": "7.4.0"
