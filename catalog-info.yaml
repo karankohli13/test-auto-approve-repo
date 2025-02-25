@@ -1,0 +1,20 @@
+# Backstage documentation
+# https://backstage.io/docs/features/software-catalog/descriptor-format/
+
+apiVersion: backstage.io/v1alpha1
+kind: Component #this is the likely default, feel free to change to one of the above
+metadata:
+  name: test-auto-approve-repo
+  description: Testing
+  annotations:
+    github.com/project-slug: contentful/test-auto-approve-repo
+    contentful.com/service-tier: "4" #1, 2, 3, 4
+    
+  tags:
+    - update-me
+    - sast-disabled
+    - tier-4
+spec:
+  type: component
+  lifecycle: production  
+  owner: group:team-security 
