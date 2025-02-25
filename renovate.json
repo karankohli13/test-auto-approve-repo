@@ -1,19 +1,22 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-      "local>contentful/renovate-config"
+        "local>contentful/renovate-config"
     ],
     "docker": {
-      "enabled": false
+        "enabled": false
     },
     "helm-values": {
-      "enabled": false
+        "enabled": false
     },
     "helmv3": {
-      "enabled": false
+        "enabled": false
     },
     "github-actions": {
-      "enabled": false
+        "enabled": false
     },
-  }
+    "npm": {
+        "enabled": true
+    }
 }
+
