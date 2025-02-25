@@ -14,7 +14,7 @@
     "jquery": "3.7.1"
   },
   "devDependencies": {
-    "eslint": "6.8.0"
+    "eslint": "9.21.0"
   },
   "keywords": [],
   "author": "",
