@@ -18,7 +18,7 @@
     "yargs-parser": "13.1.2",
     "node-fetch": "2.6.7",
     "marked": "1.2.5",
-    "dot-prop": "4.2.0",
+    "dot-prop": "4.2.1",
     "ws": "7.4.0"
   },
   "devDependencies": {
