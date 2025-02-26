@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "node": "8.0.0",
-    "react":"12",
+    "react":"12"
   },
   "devDependencies": {
     "eslint": "9.21.0"
